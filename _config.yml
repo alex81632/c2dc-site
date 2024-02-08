@@ -33,7 +33,7 @@ plugins:
 
 search: true
 locale: "pt-BR"
-teaser: /assets/images/perfil.png
+# teaser: /assets/images/perfil.png
 masthead_title: "C2-DC"
 paginate: 3 # Numero de posts por página na home
 paginate_path: /page:num/
@@ -49,6 +49,7 @@ defaults:
       read_time: true
       related: true
       toc: true
+      author_profile: true
 
 atom_feed:
   hide: true
@@ -61,22 +62,22 @@ author:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/"
