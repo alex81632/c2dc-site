@@ -99,6 +99,14 @@ O Jekyll funciona convertendo arquivos de texto simples em um site estático. El
 
 ## Instalando o Código Localmente
 
+Para adições simples ao site não é necessário instalar localmente o código. Se quiser alterar textos ou adicionar posts, basta adicionar o arquivo na pasta posts ou alterar um texto em um arquivo existente e realizar um git push para o repositório do GitHub. Com isso, o próprio GitHub realiza a compilação do código e carrega os arquivos necessários no servidor.
+
+Entretanto, se for necessário realizar alterações mais profundas, como criar uma página, etc. Sugiro instalar o código localmente para a realização de testes antes de subir o site para o GitHub.
+
+```
+NOTA: O Jekyll possui dois arquivos de configuração, o Gemfile e o _config.yml, para rodar localmente algumas linhas devem ser comentadas e outras devem ser descomentadas, lembre-se de modifica-las antes de colocar no github.
+```
+
 Jekyll é uma Gem de Ruby, e pode ser instalado na maioria dos sistemas. Como há constantes atualizações no sistema, é melhor seguir o guia mais atualizado em: [Guia de Instalação](https://jekyllrb.com/docs/installation/).
 
 Caso haja problemas de compatibilidade, o site foi desenvolvido nas seguintes versões:
@@ -109,7 +117,17 @@ Caso haja problemas de compatibilidade, o site foi desenvolvido nas seguintes ve
 
 ## Manutenções Futuras
 
-Irei falar agora sobre manutenções e modificaçoes estéticas que possam vir a ser necessárias. O Jekyll funciona com temas, eles facilitam o desenvolvimento pois possuem inúmeros layouts prontos que otimizam a experiência do desenvolvedor. Entretanto, esses layouts podem ser alterados para personalizar ainda mais o site. O tema utilizado nesse site foi o [MMistakes](https://github.com/mmistakes/minimal-mistakes), ao entrar no github dele você encontra o código fonte de todos os layouts na página _layouts.
+Irei falar agora sobre manutenções e modificaçoes estéticas que possam vir a ser necessárias.
+
+Irei comentar de modificações estruturais que dependem do próprio Jekyll e de estéticas que dependem do tema escolhido.
+
+O Jekyll funciona com temas, eles facilitam o desenvolvimento pois possuem inúmeros layouts prontos que otimizam a experiência do desenvolvedor. Entretanto, esses layouts podem ser alterados para personalizar ainda mais o site. O tema utilizado nesse site foi o [MMistakes](https://github.com/mmistakes/minimal-mistakes), ao entrar no github dele você encontra o código fonte de todos os layouts na página _layouts.
+
+### Adição de Páginas
+
+Caso seja necessário adicionar uma página de conteúdos diferente de um post (uma página de um desafio por exemplo). Basta copiar uma página (about.markdown por exemplo), e substituir o título e o texto, o permalink é opcional mas sugiro criar um para facilitar o compartilhamento.
+
+Para que essa página apareça também na navbar é necessário alterar o arquivo `navigation.yml` na pasta _data.
 
 ### Personalizando Layouts:
 
@@ -168,3 +186,7 @@ layout: archive
 ```
 
 Isso se aplica a outros layouts também. Para entender todos os layouts do [MMistakes](https://github.com/mmistakes/minimal-mistakes), sugiro seguir o tutorial deles em [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+### Alterando Textos Padrões
+
+Alguns textos padrões do tema podem ser alterados no arquivo `ui-text.yml` na pasta _data.
