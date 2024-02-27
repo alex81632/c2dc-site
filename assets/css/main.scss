@@ -1,0 +1,15 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+// $background-color: #006D8E;
+$primary-color: #006D8E;
+$footer-background-color: #b6e6ec99;
+$muted-text-color: #006D8E;
+$border-color: #B6E7EC;
+$text-color: black;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

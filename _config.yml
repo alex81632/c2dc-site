@@ -13,10 +13,10 @@ baseurl: "c2dc-site"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 ## Variáveis do site
-# logo: /assets/images/perfil.png
+logo: /assets/images/logo.png
 title: Laborátório C2-DC
 title_separator: "|"
-subtitle: "Laboratory of Command and Control and Cyber-security"
+# subtitle: "Laboratory of Command and Control and Cyber-security"
 name: "Lourenço Alves"
 email: your-email@example.com
 description: >- # Descrição em Multiplas linhas
@@ -25,7 +25,7 @@ url: "" # e.g. http://example.com
 twitter_username: ""
 github_username:  ""
 
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -55,29 +55,23 @@ atom_feed:
   hide: true
 
 author:
-  name: "Fulano da Silva"
+  name: "Lourenço Alves Pereira Jr"
   avatar: "/assets/images/perfil.png"
-  bio: "Professor do **ITA**" # Pode usar markdown
+  bio: "Assistant Professor @ ITA.br <br /> Cybersecurity <br /> Machine Learning <br /> IoT" # Pode usar markdown
   location: "SJC-SP, Brasil"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lourenco-pereira/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/c2dc"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lourenco-pereira/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/c2dc"

@@ -1,60 +1,20 @@
 ---
 layout: single
-title: Sobre Nós
+title: Sobre o Lab C2-DC
 permalink: /about/
 author_profile: true
 toc: true
-toc_label: "Capítulos"
-# toc_icon: "file-alt"
 ---
 
-# Somnus ad frontem caput
+O **Laboratório de Comando e Controle e Defesa Cibernética (Lab C2-DC)** do Instituto Tecnológico de Aeronáutica (ITA) é um centro de excelência dedicado à pesquisa e desenvolvimento de tecnologias inovadoras nas áreas de Comando e Controle, Defesa Cibernética e Sistemas Distribuídos.
 
-## Reppulit pectora corpore infractaque exilio
+## Infraestrutura
+- Localizado na Sala 86 da Divisão de Ciência da Computação (IEC) do ITA, o Lab C2-DC possui uma área de 22m² e conta com uma infraestrutura de TI avançada, incluindo 2 racks, contendo 5 Servidores com 2 processadores cada, equipados com placas de vídeo de alto desempenho, workstations, rádios definidos por software, notebooks, desktops e dispositivos FPGA.
 
-Lorem markdownum procul, abdita: serpentis amore quod in alto aras! Non non
-frontis parentis, comitate terga me fera quarum victa quod Pirithoum nominibus
-dum praetemptatque spemque! Faciendae falsus utilis audierat praescia moenia
-praetemptat fuit nec.
+## Atuação
+- O laboratório apoia tanto alunos de graduação e pós-graduação quanto projetos e pesquisas aplicados ao Setor de Defesa e ao setor operacional do Comando da Aeronáutica.
+- Além disso, o Lab C2-DC é um ponto focal para equipes de competições de CTF (Capture the Flag) e eventos da comunidade de Segurança Cibernética.
 
-> Nec hanc famulas? Undas huic tegi Haemonia huius *ambagum e fetibus* pressa
-> plumbum maturo nisi anxius Nonacria: umeris lacus non tum.
+## Visão Futura
+- Nosso objetivo é ser reconhecido como um laboratório de referência internacional em pesquisas relacionadas às áreas de Comando e Controle, Defesa Cibernética e Sistemas Distribuídos, contribuindo significativamente para a integração entre a pesquisa acadêmica e a indústria de defesa. Tem também como visão ser a referência técnica do COMAER em assuntos relacionados a estas áreas.
 
-Mittunt fides Harpyia **dura**, ora **ipsa corpore illa**. Videbar tu saevo
-Venusque Erinys et medium lacertis colores longius amorem atque Tamasenum torvo:
-Anigrus illo.
-
-Laquei tamen quod nam tetigit torrens nec nunc nunc verique; qui limes Dolona ut
-esse semicremoque celat, **pondus**. Perque Ericthonio ut saxo saepe tot hostis
-longam eurus multisque [ne](http://fretum-vera.net/crimina.html). Sunt taxo est
-*fecit*; nato cerno, de vires gravis ille. Videri est face Apollinei Thebae,
-amores inops insequitur fecit potius!
-
-## Pro vetustas sorte
-
-Conditus fera cum sic et inclusit stetit, leves, Argo Terea exstinctum sederunt.
-Vertumnus Pyramus quoque. Stridore formam, iuventa iunctura celeri laedor
-viscera verba, data *et nemus* tamen, patuit levi habuisse lucos. Erat intus
-pars fuerant quondam plausus inspirantque quisquis? Vulnus olivae amari linoque
-alumnus ut greges, an Asopida, ibi, qui tacito pallor.
-
-- Non sua Acarnanum
-- Nefasque naturae admonitorque ulciscitur viridem nec rebus
-- Successit nisi quantum saepius penetrat et suum
-- Exiluit colit dixisti
-
-At nudos vestros feret: saxa cervice tempora tanges futura, arma Derceti illa.
-Rogat aversos, pati sumit [minus](http://amictu.net/ferrumque.aspx): dubito ad
-ubi phaedimus [plumis](http://tantumhic.com/).
-
-1. Contraque dolis
-2. Et Oete tibi
-3. Non replet moritura tumulo
-4. Posses corpus tu et coniunx contingere portitor
-5. Nurusque Haec
-6. Sub ponere faciem
-
-Festinus erat est tellure quam spargentem ipse. Albas arma vitare dubiae pater
-memorabile esse nemorum Aurorae, et aura. Utque dignus: omnes iste sonant; iam
-terrae Interea celebratior tristis coactis variarum. Habetque iura: Boreas
-voluisti fessam deploravit illum proelia reddunt toto.
