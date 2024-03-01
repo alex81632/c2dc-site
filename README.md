@@ -190,3 +190,21 @@ Isso se aplica a outros layouts também. Para entender todos os layouts do [MMis
 ### Alterando Textos Padrões
 
 Alguns textos padrões do tema podem ser alterados no arquivo `ui-text.yml` na pasta _data.
+
+### Modificando o Domínio do Site
+
+O Jekyll se adapta muito bem ao github pages, que é uma forma gratuita de fazer deploy de sites frontend. Assim, sugiro que o deploy seja realizado nele com o nome do repositório de "c2dc-site" (`IMPORTANTE`). No próprio GitHub Pages há a opção de mudar o domínio do site, que pode ser feito ao adquirir um domínio em alguma plataforma de domínios como o [Registro Br](https://registro.br/).
+
+Ao realizar uma alteração no domínio do site, é possível que ele quebre. Vou elencar agora os possíveis pontos que podem solucionar esse problema:
+
+#### Base URL
+
+Trocar a base_url em `_config.yml` para "" ou para a subpasta do seu novo domínio. (No github pages essa variável era `c2dc-site` pois o github pages colocava o site em uma sub pasta: ...github.io/c2dc-site/).
+
+#### FavIcon
+
+O caminho do favicon foi hardcoded por conta da limitação da plataforma, assim, é necessário ir em `_includes/head/custom.html` e trocar todos os `c2dc-site`, da mesma forma que foi feito no íten anterior.
+
+Também é necessário que seja feitas essas alterações em `assets/images/browserconfig.xml` e em `assets/images/site.webmanifest`.
+
+Para alterações no favicon, sugiro este [tutorial](https://peateasea.de/add-favicon-to-mm-jekyll-site/).
